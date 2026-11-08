@@ -1,0 +1,220 @@
+---
+name: Artisanal Heritage Luxury
+colors:
+  surface: '#fef8f4'
+  surface-dim: '#dfd9d5'
+  surface-bright: '#fef8f4'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f8f2ee'
+  surface-container: '#f3ede9'
+  surface-container-high: '#ede7e3'
+  surface-container-highest: '#e7e1dd'
+  on-surface: '#1d1b19'
+  on-surface-variant: '#54433a'
+  inverse-surface: '#32302e'
+  inverse-on-surface: '#f6f0ec'
+  outline: '#877369'
+  outline-variant: '#dac2b6'
+  surface-tint: '#934b19'
+  primary: '#6c2f00'
+  on-primary: '#ffffff'
+  primary-container: '#8b4513'
+  on-primary-container: '#ffc29f'
+  inverse-primary: '#ffb68c'
+  secondary: '#78582f'
+  on-secondary: '#ffffff'
+  secondary-container: '#fed39f'
+  on-secondary-container: '#795930'
+  tertiary: '#5c3919'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#77502e'
+  on-tertiary-container: '#fac59a'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ffdbc9'
+  primary-fixed-dim: '#ffb68c'
+  on-primary-fixed: '#321200'
+  on-primary-fixed-variant: '#753401'
+  secondary-fixed: '#ffddb7'
+  secondary-fixed-dim: '#eabf8d'
+  on-secondary-fixed: '#2a1700'
+  on-secondary-fixed-variant: '#5e411a'
+  tertiary-fixed: '#ffdcc2'
+  tertiary-fixed-dim: '#f0bc92'
+  on-tertiary-fixed: '#2e1500'
+  on-tertiary-fixed-variant: '#623f1e'
+  background: '#fef8f4'
+  on-background: '#1d1b19'
+  surface-variant: '#e7e1dd'
+typography:
+  display-hero:
+    fontFamily: Playfair Display
+    fontSize: 56px
+    fontWeight: '600'
+    lineHeight: 68px
+    letterSpacing: -0.02em
+  display-hero-mobile:
+    fontFamily: Playfair Display
+    fontSize: 36px
+    fontWeight: '600'
+    lineHeight: 44px
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Playfair Display
+    fontSize: 40px
+    fontWeight: '600'
+    lineHeight: 48px
+    letterSpacing: -0.015em
+  headline-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: 0em
+  headline-md:
+    fontFamily: Playfair Display
+    fontSize: 28px
+    fontWeight: '500'
+    lineHeight: 36px
+  headline-sm:
+    fontFamily: Playfair Display
+    fontSize: 22px
+    fontWeight: '500'
+    lineHeight: 30px
+  title-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 26px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 30px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 26px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 22px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.06em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.08em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 3rem
+  margin-mobile: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+  space-2xl: 4rem
+---
+
+## Brand & Style
+
+This design system celebrates slow luxury, ancestral weaving traditions, and ecological craft. Designed for high-end Malagasy fiber art, woven home decor, and contemporary couture objects, the interface balances high-fashion editorial elegance with organic, tactile warmth.
+
+The aesthetic fuses **Tactile Editorial Luxury** and **Warm Modernism**:
+- **Generous Canvas Spaces:** Ample warm neutral breathing room inspired by raw sands, sun-bleached linen, and unvarnished timber.
+- **Editorial Poise:** High-contrast serif headlines evoke French-Malagasy literary journals and luxury ateliers, while crisp, approachable sans-serif body copy ensures fluid interaction across global e-commerce and storytelling touchpoints.
+- **Material Authenticity:** Surfaces take cues from natural raffia fibers, hand-dyed earthy ochres, and sun-baked terracotta clay. Visual metaphors avoid synthetic neon or plastic gleam in favor of grounded organic sophistication.
+
+## Colors
+
+The color palette draws directly from the endemic natural fibers and mineral soils of Madagascar:
+
+- **Primary (`#8B4513` - Saddle Ochre / Terre Cuite):** The foundational craft tone representing sun-cured raffia dyes, aged rosewood, and dry red earth. Used for primary interactions, featured callouts, key editorial headers, and focused states.
+- **Secondary (`#C19A6B` - Raphia Doré):** A golden vegetal tint echoing hand-harvested young rambo palm strands. Applied to subtle badge accents, seasonal highlights, progress indicators, and warm secondary interactive outlines.
+- **Tertiary (`#5D3A1A` - Écorce Profonde):** A dense smoked-bark brown used for anchored UI moments, active selection chips, and deep structural surfaces requiring high contrast against light neutrals.
+- **Neutral Surface (`#F5EFEB` - Sable d'Écru):** The foundational light canvas, evoking unbleached cotton and raw woven raffia parchment. Used across global backgrounds to avoid the sterile glare of pure cold white.
+- **Neutral Dark (`#2C1B10` - Bois Brûlé):** The ultimate text color for exceptional legibility and typographic authority, replacing default stark blacks with deep warm pigment.
+- **Accent Complementary (`#4A5844` - Feuillage Subtil):** An understated olive-sage green reserved for sustainability labels, artisan traceability stamps, and success feedback.
+
+## Typography
+
+The pairing creates an immediate dialogue between ancestral handcraft and contemporary utility:
+
+- **Playfair Display:** Conveys the stature of an haute-couture maison. Used exclusively for brand manifestos, artwork titles, and key editorial markers. Larger weights are held at `500` or `600` to maintain delicate serifs without overpowering mobile displays.
+- **Plus Jakarta Sans:** Provides ergonomic, friendly reading across product specifications, narrative descriptions, cart interactions, and UI controls. Its open counters and geometric warmth prevent technical harshness.
+- **Uppercase Tracking:** When `label-lg` and `label-sm` are deployed for product origin markers (e.g., "ATELIER ANTSIRABE"), wide positive tracking (`0.06em` to `0.08em`) gives an engraved, luxury label appearance.
+
+## Layout & Spacing
+
+The layout model favors an **asymmetric fluid grid** structured around 12 columns on desktop (above 1024px), 8 columns on tablet (768px - 1023px), and 4 columns on mobile (under 768px).
+
+- **Outer Margins:** Expansive outer framing (`3rem` desktop) evokes the border margins of a fine-art catalog or luxury lookbook. On mobile devices, this gracefully contracts to `1.25rem`.
+- **Rhythm & Whitespace:** Spacing leans towards deliberate breathing space. Component cards and storytelling sections use `space-xl` and `space-2xl` vertical distances to allow imagery of delicate woven textures to capture attention without UI clutter.
+- **Reflow Rules:** Grid items transition from dense horizontal showcases (curated artisan collections) on widescreen viewports to stacked, editorial swipe galleries on touch devices.
+
+## Elevation & Depth
+
+Visual depth avoids modern glossy glass or artificial synthetic drops. Instead, hierarchy uses **tonal layering with warm ambient diffusion**:
+
+- **Tonal Stepping:** The canvas rests on `#F5EFEB`. Elevated cards, modals, and dropdowns sit upon `#FAF7F5` or pure `#FFFFFF`, bounded by hairline boundaries (`rgba(93, 58, 26, 0.08)`).
+- **Sun-Dappled Ambient Shadows:** Depth layers use multi-step diffusion tinted with primary ochre and tertiary earth pigments rather than neutral grey or black:
+  - *Resting Surface:* `0 2px 8px -2px rgba(93, 58, 26, 0.06)`
+  - *Floating Container:* `0 8px 24px -4px rgba(44, 27, 16, 0.08), 0 2px 6px -1px rgba(93, 58, 26, 0.04)`
+  - *Lifted Modal:* `0 20px 40px -8px rgba(44, 27, 16, 0.14), 0 4px 12px -2px rgba(93, 58, 26, 0.06)`
+- **Tactile Boundaries:** Tactile components utilize subtle 1px border lines in warm clay tones (`rgba(139, 69, 19, 0.15)`) to maintain distinct form without visual weight.
+
+## Shapes
+
+With a roundedness level of `2` (medium-soft curve):
+
+- **Default Elements (`0.5rem` / 8px):** Buttons, inputs, chips, and small selection controls carry an organic softness reminiscent of shaped and dried vegetal strips.
+- **Large Panels (`rounded-lg` - `1rem` / 16px):** Product cards, imagery masks, and notification banners introduce gentle structural corners that avoid industrial severity.
+- **Hero Containers (`rounded-xl` - `1.5rem` / 24px):** Lookbook overlays, artisan profile feature cards, and bottom sheets adopt a polished, contemporary craft contour.
+
+## Components
+
+### Buttons
+- **Primary Action:** Solid `#8B4513` background, `#F5EFEB` text, with `roundedness: 2` (8px). On hover, transitions gently to `#5D3A1A` with a micro-elevation gain. Uppercase label tracking (`0.05em`).
+- **Secondary Action:** Transparent base with a 1.5px border of `#C19A6B` and `#5D3A1A` text. On hover, fills with a light raffia tint (`rgba(193, 154, 107, 0.12)`).
+- **Text / Editorial Link:** `#8B4513` text with an understated underline offset by 4px, transitioning into full color intensity on focus.
+
+### Input Fields
+- Resting on `#FFFFFF` surfaces with a 1px border in `#D9C8B8`.
+- Focus state activates a 1.5px border in `#8B4513` alongside an ambient halo (`0 0 0 3px rgba(139, 69, 19, 0.12)`).
+- Placeholder typography is set in `Plus Jakarta Sans`, styled in `#8C7D73`.
+
+### Cards & Craft Displays
+- Composed on a clean `#FFFFFF` ground layered over the `#F5EFEB` root canvas.
+- Features high-resolution photography of woven palm textures with an 8px border-radius mask.
+- Includes bottom content containers featuring `Playfair Display` item names, subtle gold provenance badges, and a minimalist divider rule.
+
+### Chips & Filter Tags
+- **Selected:** Filled with `#5D3A1A`, text in `#F5EFEB`.
+- **Default:** Transparent background with a 1px border of `rgba(93, 58, 26, 0.2)` and text in `#5D3A1A`.
+- Ideal for categorizing fiber styles (e.g., "Raphia Teinté", "Vannerie Fine", "Tressage Ajouré").
+
+### Checkboxes & Radios
+- Square checkbox elements mirror the 4px curvature of basketry knots; radio elements use classic concentric circles.
+- Active fill: `#8B4513` with a crisp `#F5EFEB` checkmark icon.
+
+### Artisan Provenance Seals (Custom Component)
+- Distinctive circular or pill badge containing subtle vegetal motifs, highlighting direct weaver cooperatives, certification stamps, and fair-trade sourcing across Madagascar's high plateaus.

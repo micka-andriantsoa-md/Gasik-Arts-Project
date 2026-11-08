@@ -1,0 +1,6 @@
+{
+  "name": "Gasik'arts - Vannerie d'Art & Sacs Artisanaux Malagasy",
+  "description": "Boutique en ligne officielle Gasik'arts : paniers malagasy, cabas en mahampy et raphia naturel tressés à la main au Sud-Est de Madagascar. Le meilleur pour vous.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
