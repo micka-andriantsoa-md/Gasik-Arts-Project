@@ -46,11 +46,13 @@ export const Footer: React.FC<FooterProps> = ({ onNavClick }) => {
                 Lignes Directes & Commandes :
               </div>
               <div className="flex flex-col gap-1 text-sm font-bold text-white font-mono">
-                <a href={`tel:${BRAND_HOTLINES[0].raw}`} className="hover:text-[#fed39f] transition-colors">
-                  {BRAND_HOTLINES[0].number} (Airtel)
+                <a href={`tel:${BRAND_HOTLINES[0].raw}`} className="hover:text-[#fed39f] transition-colors flex items-center justify-between">
+                  <span>{BRAND_HOTLINES[0].number}</span>
+                  <span className="text-[10px] text-[#10b981] font-sans font-semibold">WhatsApp & Appels</span>
                 </a>
-                <a href={`tel:${BRAND_HOTLINES[1].raw}`} className="hover:text-[#fed39f] transition-colors">
-                  {BRAND_HOTLINES[1].number} (Orange)
+                <a href={`tel:${BRAND_HOTLINES[1].raw}`} className="hover:text-[#fed39f] transition-colors flex items-center justify-between">
+                  <span>{BRAND_HOTLINES[1].number}</span>
+                  <span className="text-[10px] text-[#dac2b6] font-sans">Airtel</span>
                 </a>
               </div>
             </div>

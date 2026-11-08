@@ -39,13 +39,13 @@ export const FloatingHotline: React.FC = () => {
 
           <div className="space-y-2">
             <a
-              href="https://wa.me/261387760947?text=Bonjour%20Gasik'arts,%20j'aimerais%20avoir%20des%20renseignements%20sur%20vos%20paniers."
+              href="https://wa.me/261380545766?text=Bonjour%20Gasik'arts,%20j'aimerais%20avoir%20des%20renseignements%20sur%20vos%20paniers."
               target="_blank"
               rel="noopener noreferrer"
               className="w-full py-2 px-3 rounded-lg bg-[#10b981] hover:bg-emerald-600 text-white font-bold text-xs flex items-center justify-center gap-2 shadow-sm transition-colors text-center"
             >
               <MessageCircle className="w-3.5 h-3.5" />
-              <span>Discuter sur WhatsApp</span>
+              <span>Discuter sur WhatsApp (038 05 457 66)</span>
             </a>
 
             <a
@@ -66,7 +66,7 @@ export const FloatingHotline: React.FC = () => {
         title="Contacter Gasik'arts"
       >
         <MessageCircle className="w-5 h-5" />
-        <span className="hidden sm:inline">WhatsApp &bull; 038 77 609 47</span>
+        <span className="hidden sm:inline">WhatsApp &bull; 038 05 457 66</span>
       </button>
 
     </div>

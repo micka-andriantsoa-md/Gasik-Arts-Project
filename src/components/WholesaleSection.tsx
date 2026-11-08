@@ -36,7 +36,7 @@ export const WholesaleSection: React.FC<WholesaleSectionProps> = ({ currency }) 
   };
 
   const discount = getDiscount(bagCount);
-  const baseAvgPriceMGA = 110000;
+  const baseAvgPriceMGA = 60000;
   const unitPriceAfterDiscountMGA = Math.round(baseAvgPriceMGA * (1 - discount));
   const totalMGA = unitPriceAfterDiscountMGA * bagCount;
 
@@ -141,7 +141,7 @@ export const WholesaleSection: React.FC<WholesaleSectionProps> = ({ currency }) 
 
             {/* WhatsApp Quick Quote link */}
             <a
-              href={`https://wa.me/261387760947?text=Bonjour%20Gasik'arts,%20je%20suis%20un%20professionnel%20et%20souhaite%20un%20devis%20grossiste%20pour%20${bagCount}%20sacs%20(${modelType})%20vers%20${encodeURIComponent(destination)}.`}
+              href={`https://wa.me/261380545766?text=${encodeURIComponent(`Bonjour Gasik'arts, je suis un professionnel et souhaite un devis grossiste pour ${bagCount} sacs (${modelType}) vers ${destination}.`)}`}
               target="_blank"
               rel="noopener noreferrer"
               className="w-full py-3 px-4 rounded-lg bg-[#10b981] text-white font-bold text-xs hover:bg-emerald-600 transition-colors flex items-center justify-center gap-2 shadow-sm text-center"

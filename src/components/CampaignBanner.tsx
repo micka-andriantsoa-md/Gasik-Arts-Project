@@ -97,7 +97,7 @@ export const CampaignBanner: React.FC<CampaignBannerProps> = ({
                 </button>
 
                 <a
-                  href={`https://wa.me/261387760947?text=Bonjour%20Gasik'arts,%20je%20souhaite%20commander%20le%20sac%20de%20la%20campagne%20Complétez%20votre%20Élégance%20(Prix:%20${featuredProduct.priceMGA}%20Ar).`}
+                  href={`https://wa.me/261380545766?text=${encodeURIComponent(`Bonjour Gasik'arts, je souhaite commander le sac de la campagne Complétez votre Élégance (Prix: ${featuredProduct.priceMGA} Ar).`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-4 py-2.5 rounded-lg bg-[#10b981] text-white font-bold text-sm hover:bg-emerald-600 transition-colors flex items-center gap-2 ml-auto shadow-md"

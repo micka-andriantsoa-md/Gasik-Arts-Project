@@ -90,12 +90,12 @@ export const Navbar: React.FC<NavbarProps> = ({
 
             <span className="text-[#dac2b6] hidden md:inline">|</span>
             <a 
-              href="https://wa.me/261387760947?text=Bonjour%20Gasik'arts,%20je%20souhaite%20commander%20un%20panier." 
+              href="https://wa.me/261380545766?text=Bonjour%20Gasik'arts,%20je%20souhaite%20commander%20un%20panier." 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-[#10b981] hover:text-emerald-300 font-semibold flex items-center gap-1"
             >
-              WhatsApp Direct
+              WhatsApp Direct (038 05 457 66)
             </a>
           </div>
         </div>
@@ -274,14 +274,14 @@ export const Navbar: React.FC<NavbarProps> = ({
               className="text-sm font-bold text-[#6c2f00] flex items-center gap-2 py-1"
             >
               <Phone className="w-4 h-4 text-[#10b981]" />
-              {BRAND_HOTLINES[0].number} (Airtel)
+              {BRAND_HOTLINES[0].number} (WhatsApp / Orange)
             </a>
             <a 
               href={`tel:${BRAND_HOTLINES[1].raw}`}
               className="text-sm font-bold text-[#6c2f00] flex items-center gap-2 py-1"
             >
-              <Phone className="w-4 h-4 text-[#10b981]" />
-              {BRAND_HOTLINES[1].number} (Orange)
+              <Phone className="w-4 h-4 text-[#8b4513]" />
+              {BRAND_HOTLINES[1].number} (Airtel)
             </a>
           </div>
         </div>

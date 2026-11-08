@@ -310,7 +310,7 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
                       </button>
 
                       <a
-                        href={`https://wa.me/261387760947?text=Bonjour%20Gasik'arts,%20je%20souhaite%20commander%20immédiatement%20le%20modèle%20:%20${encodeURIComponent(product.name)}%20(${product.priceMGA}%20Ar).`}
+                        href={`https://wa.me/261380545766?text=${encodeURIComponent(`Bonjour Gasik'arts, je souhaite commander immédiatement le modèle : ${product.name} (${product.priceMGA} Ar).`)}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="w-full py-2 px-2 rounded-lg bg-[#f3ede9] text-[#2c1b10] hover:bg-[#ede7e3] text-xs font-semibold transition-colors flex items-center justify-center gap-1 border border-[#dac2b6]"
@@ -347,10 +347,10 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
 
         <div className="flex items-center gap-3 shrink-0">
           <a
-            href="tel:+261387760947"
+            href="tel:+261380545766"
             className="px-4 py-2.5 rounded-lg bg-[#2c1b10] text-[#fef8f4] text-xs font-bold hover:bg-black transition-colors"
           >
-            Appeler l'Atelier
+            Appeler l'Atelier (038 05 457 66)
           </a>
           <a
             href="#grossiste-section"

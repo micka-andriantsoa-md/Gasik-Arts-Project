@@ -237,13 +237,13 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
 
               {/* Direct WhatsApp Ordering */}
               <a
-                href={`https://wa.me/261387760947?text=Bonjour%20Gasik'arts,%20je%20souhaite%20commander%20immédiatement%20:%0A-%20Modèle:%20${encodeURIComponent(product.name)}%0A-%20Quantité:%20${quantity}%0A-%20Teinte:%20${encodeURIComponent(selectedColor)}%0A-%20Prix%20total:%20${product.priceMGA * quantity}%20Ar.`}
+                href={`https://wa.me/261380545766?text=${encodeURIComponent(`Bonjour Gasik'arts, je souhaite commander immédiatement :\n- Modèle: ${product.name}\n- Quantité: ${quantity}\n- Teinte: ${selectedColor}\n- Prix total: ${product.priceMGA * quantity} Ar.`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full py-2.5 px-4 rounded-lg bg-[#10b981] hover:bg-emerald-600 text-white font-bold text-xs transition-colors flex items-center justify-center gap-2 shadow-sm text-center"
               >
                 <MessageCircle className="w-4 h-4" />
-                <span>Commander directement via WhatsApp (+261 38 77 609 47)</span>
+                <span>Commander directement via WhatsApp (038 05 457 66)</span>
               </a>
             </div>
 

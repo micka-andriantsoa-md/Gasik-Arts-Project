@@ -38,7 +38,7 @@ export const BagCustomizer: React.FC<BagCustomizerProps> = ({
     {
       id: 'vohipeno',
       name: "Cabas Rayé 'Vohipeno Souvenir'",
-      basePrice: 125000,
+      basePrice: 65000,
       hours: 26,
       previewBg: 'from-[#ec4899] via-[#f59e0b] to-[#1e3a8a]',
       image: '/assets/aistudio/ChatGPT_Image_1_mars_2026__13_14_34_2e085191.png',
@@ -47,7 +47,7 @@ export const BagCustomizer: React.FC<BagCustomizerProps> = ({
     {
       id: 'sud-est',
       name: "Grand Cabas 'Sud-Est Prestige'",
-      basePrice: 145000,
+      basePrice: 75000,
       hours: 28,
       previewBg: 'from-[#be185d] via-[#1e3a8a] to-[#eab308]',
       image: '/assets/aistudio/image_62cd8364_c5ac4cb8.png',
@@ -56,7 +56,7 @@ export const BagCustomizer: React.FC<BagCustomizerProps> = ({
     {
       id: 'harona',
       name: "Panier Marché 'Harona Tsotra'",
-      basePrice: 85000,
+      basePrice: 40000,
       hours: 18,
       previewBg: 'from-[#dc2626] via-[#1e3a8a] to-[#d97706]',
       image: '/assets/aistudio/Harona_tsotra_56c229cc.png',
@@ -65,7 +65,7 @@ export const BagCustomizer: React.FC<BagCustomizerProps> = ({
     {
       id: 'pochette',
       name: "Pochette de Soirée 'Misautri'",
-      basePrice: 75000,
+      basePrice: 25000,
       hours: 14,
       previewBg: 'from-[#581c87] via-[#9d174d] to-[#f472b6]',
       image: '/assets/aistudio/1791364287803_e9ab859d.jpg',
@@ -89,7 +89,7 @@ export const BagCustomizer: React.FC<BagCustomizerProps> = ({
       subtitle: 'Terre rouge de Madagascar & Raphia doré',
       colors: ['#8b4513', '#c19a6b', '#5c3919', '#fef8f4'],
       textColor: '#fef8f4',
-      priceModifier: 10000
+      priceModifier: 5000
     },
     {
       id: 'soleil',
@@ -118,16 +118,16 @@ export const BagCustomizer: React.FC<BagCustomizerProps> = ({
       desc: 'Tressage traditionnel en raphia renforcé'
     },
     {
-      id: 'leather',
-      name: 'Anses cuir de zébu surpiqué',
-      price: 30000,
-      desc: 'Maroquinerie sellier cousue main'
-    },
-    {
       id: 'shoulder',
       name: 'Bandoulière longue portée épaule',
-      price: 15000,
+      price: 5000,
       desc: 'Confort maximal pour les déplacements'
+    },
+    {
+      id: 'leather',
+      name: 'Anses cuir de zébu surpiqué',
+      price: 10000,
+      desc: 'Maroquinerie sellier cousue main'
     }
   ];
 
@@ -140,8 +140,8 @@ export const BagCustomizer: React.FC<BagCustomizerProps> = ({
     currentModel.basePrice + 
     currentPalette.priceModifier + 
     currentHandle.price + 
-    (hasPompon ? 10000 : 0) + 
-    (hasWoodButton ? 12000 : 0);
+    (hasPompon ? 5000 : 0) + 
+    (hasWoodButton ? 5000 : 0);
 
   const totalEUR = Math.round(totalMGA / 4600);
   const estimatedHours = currentModel.hours + (hasPompon ? 2 : 0) + (handleType === 'leather' ? 3 : 0);
@@ -287,7 +287,7 @@ export const BagCustomizer: React.FC<BagCustomizerProps> = ({
                   </button>
 
                   <a
-                    href={`https://wa.me/261387760947?text=${encodeURIComponent(`Bonjour Gasik'arts, je souhaite commander un sac sur-mesure :\n- Modèle: ${currentModel.name}\n- Couleurs: ${currentPalette.name}\n- Texte tissé: "${cleanText}"\n- Anses: ${currentHandle.name}\n- Pompon: ${hasPompon ? 'Oui' : 'Non'}\n- Bouton: ${hasWoodButton ? 'Oui' : 'Non'}\n- Prix estimé: ${totalMGA} Ar.`)}`}
+                    href={`https://wa.me/261380545766?text=${encodeURIComponent(`Bonjour Gasik'arts, je souhaite commander un sac sur-mesure :\n- Modèle: ${currentModel.name}\n- Couleurs: ${currentPalette.name}\n- Texte tissé: "${cleanText}"\n- Anses: ${currentHandle.name}\n- Pompon: ${hasPompon ? 'Oui' : 'Non'}\n- Bouton: ${hasWoodButton ? 'Oui' : 'Non'}\n- Prix estimé: ${totalMGA} Ar.`)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full py-3 px-4 rounded-lg bg-[#10b981] text-white font-bold text-xs hover:bg-emerald-600 transition-colors flex items-center justify-center gap-2 shadow-md text-center"
@@ -488,7 +488,7 @@ export const BagCustomizer: React.FC<BagCustomizerProps> = ({
                   />
                   <div>
                     <div className="text-xs font-bold text-[#2c1b10]">
-                      Pompon soyeux bicolore fait main (+{formatPrice(10000, currency)})
+                      Pompon soyeux bicolore fait main (+{formatPrice(5000, currency)})
                     </div>
                     <div className="text-[11px] text-[#877369]">
                       En fibres de raphia peignées
@@ -505,7 +505,7 @@ export const BagCustomizer: React.FC<BagCustomizerProps> = ({
                   />
                   <div>
                     <div className="text-xs font-bold text-[#2c1b10]">
-                      Bouton fermoir en palissandre (+{formatPrice(12000, currency)})
+                      Bouton fermoir en palissandre (+{formatPrice(5000, currency)})
                     </div>
                     <div className="text-[11px] text-[#877369]">
                       Bois noble sculpté à la gouge

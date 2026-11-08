@@ -148,7 +148,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
             {/* Direct WhatsApp follow-up */}
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
               <a
-                href={`https://wa.me/261387760947?text=Bonjour%20Gasik'arts,%20je%20confirme%20ma%20commande%20Réf:%20${orderRef}%20pour%20${encodeURIComponent(fullName)}%20(${totalMGA}%20Ar).`}
+                href={`https://wa.me/261380545766?text=${encodeURIComponent(`Bonjour Gasik'arts, je confirme ma commande Réf: ${orderRef} pour ${fullName} (${totalMGA} Ar).`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto px-5 py-3 rounded-xl bg-[#10b981] hover:bg-emerald-600 text-white font-bold text-xs transition-colors flex items-center justify-center gap-2 shadow-md"
@@ -199,7 +199,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
                     required
                     value={phoneNumber}
                     onChange={(e) => setPhoneNumber(e.target.value)}
-                    placeholder="Ex: 038 77 609 47 ou +33 6..."
+                    placeholder="Ex: 038 05 457 66 ou +33 6..."
                     className="w-full p-2.5 text-xs rounded-lg border border-[#dac2b6] bg-white text-[#2c1b10] focus:outline-none focus:border-[#8b4513]"
                   />
                 </div>

@@ -192,13 +192,13 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
               </button>
 
               <a
-                href={`https://wa.me/261387760947?text=${generateWhatsAppMessage()}`}
+                href={`https://wa.me/261380545766?text=${generateWhatsAppMessage()}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full py-2.5 px-4 rounded-xl bg-[#10b981] hover:bg-emerald-600 text-white font-bold text-xs transition-colors flex items-center justify-center gap-2 shadow-xs text-center"
               >
                 <MessageCircle className="w-4 h-4" />
-                <span>Commander ce Panier par WhatsApp</span>
+                <span>Commander ce Panier par WhatsApp (038 05 457 66)</span>
               </a>
             </div>
           </div>
